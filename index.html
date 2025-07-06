@@ -14,17 +14,28 @@
                 <input type="text" id="nombre" name="nombre" required>
             </div>
             <div class="campo">
+                <label for="area_trabajo">Puesto de trabajo:</label>
+                <input type="text" id="area_trabajo" name="area_trabajo" required>
+            </div>
+            <div class="campo">
                 <label for="correo">Correo Electrónico:</label>
                 <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="campo">
+                <label for="telefono">Número de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono" required>
             </div>
             <div class="campo">
                 <label for="solicitud">Solicitud:</label>
                 <select id="solicitud" name="solicitud" required>
                     <option value="">Seleccione una opción</option>
-                    <option value="solicitud">solicitud de equipo y/o software</option>
+                    <option value="solicitud_equipos">Solicitud de equipo y/o software</option>
+                    <option value="solicitud_accesos">Solicitud de cuentas de acceso</option>
+                    <option value="desactivar_accesos">Desactivar cuentas de acceso</option>
                     <option value="instalacion">Instalación de software</option>
+                    <option value="cambio">Cambio de equipo</option>
                     <option value="soporte">Soporte técnico</option>
-                    <option value="reparacion">Reparación de hardware</option>
+                    <option value="matenimiento">Solicitud de mantenimiento</option>
                     <option value="otro">Otro</option>
                 </select>
             </div>
